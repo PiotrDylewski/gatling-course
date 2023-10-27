@@ -11,7 +11,12 @@ class VideoGameFullTest extends Simulation {
     println(s"Number of users: ${USER_COUNT}")
     println(s"Users ramp time (seconds): ${RAMP_DURATION}")
     println(s"Test duration (seconds): ${TEST_DURATION}")
+    println(s"Max Global Response Time (milliseconds): ${MAX_GLOBAL_RESPONSE_TIME}")
+    println(s"Global Successful Response Rate (percent): ${GLOBAL_SUCCESSFUL_RESPONSE_PERCENT}")
     println("********************************")
+    println("LOAD TEST FINISHED")
+    println("********************************")
+
   }
 
   /*** SCENARIO ***/
