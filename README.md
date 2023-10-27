@@ -1,3 +1,6 @@
+Project created during Gatling with Scala course.
+Created by Piotr Dylewski
+
 Gatling plugin for Maven - Scala demo project
 =============================================
 
