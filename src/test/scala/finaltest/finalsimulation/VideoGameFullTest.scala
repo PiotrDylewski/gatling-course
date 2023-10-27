@@ -1,10 +1,13 @@
 package finaltest.finalsimulation
 
 import io.gatling.core.Predef._
-import finaltest.config.AppConfig._
 import finaltest.httpcalls.HttpCalls._
 
 class VideoGameFullTest extends Simulation {
+
+  val USER_COUNT = System.getProperty("USER_COUNT","4").toInt
+  val RAMP_DURATION = System.getProperty("RAMP_DURATION","8").toInt
+  val TEST_DURATION = System.getProperty("TEST_DURATION","32").toInt
 
   after {
     println("********************************")
